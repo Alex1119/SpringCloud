@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Eureka-Server" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/GateWay" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/Provider-Order" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/Provider-User" vcs="svn" />
+  </component>
+</project>

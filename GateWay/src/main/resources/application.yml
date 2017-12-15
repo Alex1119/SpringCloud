@@ -1,0 +1,22 @@
+server:
+  port: 8881
+
+spring:
+  application:
+    name: gateway
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8880/eureka/
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+
+zuul:
+  routes:
+    apiUser:
+      path: /apiUser/**
+      serviceId: provider-user
+    apiOrder:
+      path: /apiOrder/**
+      serviceId: provider-order
