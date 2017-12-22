@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Config-Server/Config-Server.iml" filepath="$PROJECT_DIR$/Config-Server/Config-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" filepath="$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/GateWay/GateWay.iml" filepath="$PROJECT_DIR$/GateWay/GateWay.iml" />
       <module fileurl="file://$PROJECT_DIR$/Provider-Order/Provider-Order.iml" filepath="$PROJECT_DIR$/Provider-Order/Provider-Order.iml" />
       <module fileurl="file://$PROJECT_DIR$/Provider-User/Provider-User.iml" filepath="$PROJECT_DIR$/Provider-User/Provider-User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zipkin-Server/Zipkin-Server.iml" filepath="$PROJECT_DIR$/Zipkin-Server/Zipkin-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springclouddemo.iml" filepath="$PROJECT_DIR$/springclouddemo.iml" />
     </modules>
   </component>

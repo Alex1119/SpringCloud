@@ -6,19 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Config-Server" />
+        <module name="Core" />
         <module name="Eureka-Server" />
         <module name="GateWay" />
         <module name="Provider-Order" />
         <module name="Provider-User" />
+        <module name="Zipkin-Server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
+      <module name="Config-Server" target="1.8" />
       <module name="Controller-User" target="1.8" />
+      <module name="Core" target="1.5" />
       <module name="demo" target="1.8" />
       <module name="Eureka-Server" target="1.8" />
       <module name="GateWay" target="1.8" />
       <module name="Provider-Order" target="1.8" />
       <module name="Provider-User" target="1.8" />
+      <module name="Zipkin-Server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

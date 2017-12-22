@@ -1,0 +1,15 @@
+server:
+  port: 8808
+
+spring:
+  application:
+    name: Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/forezp/SpringcloudConfig/
+          searchPaths: respo
+          label: master
+          username: #公共仓库可不配置
+          password:

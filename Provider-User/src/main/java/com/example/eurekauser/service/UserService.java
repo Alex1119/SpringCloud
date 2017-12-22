@@ -9,8 +9,9 @@ public class UserService {
     @Value("${server.port}")
     String serverPort;
 
-    public String createUser(String userName){
-        return String.format("CREATE USER %s @%s SUCCESS!", userName, serverPort);
+    public String createUser(String userName) throws Exception {
+        throw new Exception("OCCUR AN EXCEPTION");
+//        return String.format("CREATE USER %s @%s SUCCESS!", userName, serverPort);
     }
 
 }
