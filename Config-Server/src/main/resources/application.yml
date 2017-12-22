@@ -8,8 +8,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
-          searchPaths: respo
+          uri: https://github.com/Alex1119/SpringCloud/
+          searchPaths: Config
           label: master
           username: #公共仓库可不配置
           password:
