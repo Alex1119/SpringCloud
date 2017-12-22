@@ -1,15 +1,17 @@
 server:
-  port: 8808
+  port: 8888
 
 spring:
   application:
-    name: Config-Server
+    name: config-server
   cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Alex1119/SpringCloud/
-          searchPaths: Config
-          label: master
-          username: #公共仓库可不配置
-          password:
+   config:
+    label: master
+    server:
+     git:
+       uri: https://github.com/Alex1119/SpringCloud/
+       search-paths: Config
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8880/eureka/
