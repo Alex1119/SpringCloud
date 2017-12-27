@@ -3,7 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/Config-Server" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/Core" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/Eureka-Order" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/Eureka-Server" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/Eureka-User" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/GateWay" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/Provider-Order" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/Provider-User" vcs="svn" />

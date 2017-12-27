@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/Zipkin-Server/pom.xml" />
         <option value="$PROJECT_DIR$/Core/pom.xml" />
         <option value="$PROJECT_DIR$/Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Eureka-Order/pom.xml" />
+        <option value="$PROJECT_DIR$/Eureka-User/pom.xml" />
       </list>
     </option>
   </component>

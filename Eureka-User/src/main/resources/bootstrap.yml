@@ -1,0 +1,12 @@
+server:
+  port: 8802
+
+spring:
+  application:
+    name: Eureka-User
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8888/
+      name: config-user

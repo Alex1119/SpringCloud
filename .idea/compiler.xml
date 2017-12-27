@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Config-Server" />
         <module name="Core" />
+        <module name="Eureka-Order" />
         <module name="Eureka-Server" />
+        <module name="Eureka-User" />
         <module name="GateWay" />
         <module name="Provider-Order" />
         <module name="Provider-User" />
@@ -20,9 +22,12 @@
       <module name="Controller-User" target="1.8" />
       <module name="Core" target="1.5" />
       <module name="demo" target="1.8" />
+      <module name="Eureka-Order" target="1.8" />
       <module name="Eureka-Server" target="1.8" />
+      <module name="Eureka-User" target="1.8" />
       <module name="GateWay" target="1.8" />
       <module name="Provider-Order" target="1.8" />
+      <module name="Provider-Service" target="1.8" />
       <module name="Provider-User" target="1.8" />
       <module name="Zipkin-Server" target="1.8" />
     </bytecodeTargetLevel>

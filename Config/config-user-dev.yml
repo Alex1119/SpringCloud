@@ -1,9 +1,6 @@
-server:
-  port: 8884
-
 spring:
   application:
-    name: provider-user
+    name: Eureka-User
   zipkin:
     base-url: http://localhost:8882
 

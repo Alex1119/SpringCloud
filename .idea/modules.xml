@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Config-Server/Config-Server.iml" filepath="$PROJECT_DIR$/Config-Server/Config-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka-Order/Eureka-Order.iml" filepath="$PROJECT_DIR$/Eureka-Order/Eureka-Order.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" filepath="$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka-User/Eureka-User.iml" filepath="$PROJECT_DIR$/Eureka-User/Eureka-User.iml" />
       <module fileurl="file://$PROJECT_DIR$/GateWay/GateWay.iml" filepath="$PROJECT_DIR$/GateWay/GateWay.iml" />
       <module fileurl="file://$PROJECT_DIR$/Provider-Order/Provider-Order.iml" filepath="$PROJECT_DIR$/Provider-Order/Provider-Order.iml" />
       <module fileurl="file://$PROJECT_DIR$/Provider-User/Provider-User.iml" filepath="$PROJECT_DIR$/Provider-User/Provider-User.iml" />
